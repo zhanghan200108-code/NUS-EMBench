@@ -2,4 +2,4 @@ This dataset contains wideband impedance measurements of Common-Mode Chokes (CMC
 
 Each directory in the dataset is named after the magnetic core type (e.g., W452, W358), and contains a collection of Touchstone .s2p files representing the raw S-parameter measurements. The naming follows a simple and consistent rule: each .s2p file is named by the turn number of the corresponding CMC sample (for example, 32.s2p corresponds to a 32-turn CMC). Within the same directory, a corresponding .csv file summarizes the computed common-mode impedance for all samples using that core, with frequency, real-part, and imaginary-part data consolidated for convenient analysis and modeling.
 
-This dataset is intended for research on electromagnetic compatibility (EMC), analytical and physics-informed impedance modeling, and machine-learning-based prediction of magnetic component behavior. It enables detailed analysis of resonance characteristics across different turn numbers and magnetic cores, and provides a standardized foundation for benchmarking analytical models, data-driven regression methods, and hybrid physics-ML approaches.# NUS-EMBench
+
